@@ -59,7 +59,7 @@ class SimpleemergencystopPlugin(octoprint.plugin.StartupPlugin,
 	def get_assets(self):
 
 		return dict(
-			js=["js/simpleemergencystop.js"],
+			js=["js/raisecloud.js"],
 		)
 
 	##~~ Softwareupdate hook
