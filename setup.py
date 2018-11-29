@@ -27,7 +27,7 @@ plugin_author = "yuanrui"
 plugin_author_email = "agean.yuan@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/BrokenFire/OctoPrint-SimpleEmergencyStop"
+plugin_url = "https://github.com/52idora/octoprint-raisecloud"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"

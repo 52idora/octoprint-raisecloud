@@ -80,7 +80,7 @@ class SimpleemergencystopPlugin(octoprint.plugin.StartupPlugin,
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/BrokenFire/OctoPrint-SimpleEmergencyStop/archive/{target_version}.zip"
+				pip="https://github.com/52idora/octoprint-raisecloud/archive/{target_version}.zip"
 			)
 		)
 
