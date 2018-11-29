@@ -70,13 +70,13 @@ class SimpleemergencystopPlugin(octoprint.plugin.StartupPlugin,
 		# for details.
 		return dict(
 			simpleemergencystop=dict(
-				displayName="Simple Emergency Stop",
+				displayName="RaiseCloud",
 				displayVersion=self._plugin_version,
 
 				# version check: github repository
 				type="github_release",
 				user="BrokenFire",
-				repo="OctoPrint-SimpleEmergencyStop",
+				repo="octoprint-raisecloud",
 				current=self._plugin_version,
 
 				# update method: pip
@@ -88,7 +88,7 @@ class SimpleemergencystopPlugin(octoprint.plugin.StartupPlugin,
 # If you want your plugin to be registered within OctoPrint under a different name than what you defined in setup.py
 # ("OctoPrint-PluginSkeleton"), you may define that here. Same goes for the other metadata derived from setup.py that
 # can be overwritten via __plugin_xyz__ control properties. See the documentation for that.
-__plugin_name__ = "Simple Emergency Stop"
+__plugin_name__ = "RaiseCloud"
 
 def __plugin_load__():
 	global __plugin_implementation__
