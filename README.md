@@ -1,6 +1,6 @@
 # Raise Cloud Plugin
 
-A simple plugin that add an Emergency stop button on the Octoprint NavBar
+A simple plugin to connect to RaiseCloud
 
 ## Setup
 
