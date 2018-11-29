@@ -22,7 +22,7 @@ class SimpleemergencystopPlugin(octoprint.plugin.StartupPlugin,
 
 	def get_settings_defaults(self):
 		return dict(
-			emergencyGCODE="M112",
+			emergencyGCODE="accesskey",
 			confirmationDialog = False
 		)
 

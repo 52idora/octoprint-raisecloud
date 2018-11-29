@@ -28,15 +28,14 @@ $(function() {
 
         self.sendCommand = function () {
             $.ajax({
-                 url: API_BASEURL+"plugin/simpleemergencystop",
+                 //url: API_BASEURL+"plugin/simpleemergencystop",
+                 url: "https://api.raise3d.com/api-v1.1/user/login",
                  type: "POST",
                  dataType: "json",
-                 data: JSON.stringify({
-                     command: "emergencyStop"
-                 }),
+                 data: {},
                  contentType: "application/json; charset=UTF-8",
                  success: function (data,status) {
-
+                       console.log(data);
                  }
             });
             self.confirmation.modal("hide");
