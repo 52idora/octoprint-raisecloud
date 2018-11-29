@@ -22,7 +22,9 @@ class SimpleemergencystopPlugin(octoprint.plugin.StartupPlugin,
 
 	def get_settings_defaults(self):
 		return dict(
-			emergencyGCODE="accesskey",
+			email="xxx@xxx",
+			password="",
+			server_url="https://api.raise3d.com/",
 			confirmationDialog = False
 		)
 

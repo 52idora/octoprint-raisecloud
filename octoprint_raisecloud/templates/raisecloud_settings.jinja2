@@ -1,13 +1,22 @@
-<h3>{{_("Simple Emergency Stop")}}</h3>
+<h3>{{_("RaiseCloud")}}</h3>
 <form class="form-horizontal">
     <div class="control-group">
-        <label class="control-label">{{ _('Emergency GCODE:') }}</label>
+        <label class="control-label">{{ _('Email:') }}</label>
         <div class="controls">
-            <input type="text" class="input-block-level" data-bind="value: settings.plugins.raisecloud.emergencyGCODE">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.raisecloud.email">
         </div>
-         <label class="control-label">{{ _('Enable warning dialog ') }}</label>
+        <label class="control-label">{{ _('Password:') }}</label>
         <div class="controls">
-            <input type="checkbox" data-bind="checked: settings.plugins.raisecloud.confirmationDialog">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.raisecloud.password">
+        </div>
+        <label class="control-label">{{ _('Server Url:') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" data-bind="value: settings.plugins.raisecloud.server_url">
+        </div>
+         <label class="control-label">{{ _(' ') }}</label>
+        <div class="controls">
+            <button class="btn btn-default">{{_("Unbind")}}</button>
+            <button class="btn btn-primary">{{_("Login")}}</button>
         </div>
 
     </div>
