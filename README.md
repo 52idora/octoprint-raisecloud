@@ -4,18 +4,18 @@ A simple plugin to connect to RaiseCloud
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
+Install via the bundled [Plugin Manager](https://github.com/52idora/octoprint-raisecloud:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/BrokenFire/OctoPrint-SimpleEmergencyStop/archive/master.zip
+    https://github.com/52idora/octoprint-raisecloud/archive/master.zip
 
 
 ## Configuration
 
 - **emergencyGcode**
-    Diffine the GCODE to send when the button is pressed.
-- **confirmationDialog** Show corfirmation dialog on click?
+    Input the user accesskey for login to RaiseCloud.
+- **Login** click to login to raisecloud.
 
 ## API
 
-Adding `plugin/simpleemergencystop` route, commande is `emergencyStop`.
+Adding `plugin/raiselogin` route, commande is `login`.
